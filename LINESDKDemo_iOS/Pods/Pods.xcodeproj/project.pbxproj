@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16F8A023A1DF02BB716469AE182B5B46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4036668706AF9302DA76A70C42F30DD1 /* Pods-LINELoginDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A890A92F8B2E282C5F14C9C5C88884C8 /* Pods-LINELoginDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		881A84A314D30391CCA7CCFBEFA33F14 /* Pods-LINELoginDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F884DD8FE4715678EA59EAD53F5170 /* Pods-LINELoginDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05F884DD8FE4715678EA59EAD53F5170 /* Pods-LINELoginDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LINELoginDemo-dummy.m"; sourceTree = "<group>"; };
+		1C0815D949F4ED63B97C353230365D85 /* Pods-LINELoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LINELoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+		23FE5A8E8BF4FEBF435968D73B8805D9 /* Pods-LINELoginDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LINELoginDemo-frameworks.sh"; sourceTree = "<group>"; };
+		2B93EBBFBB1751BC284414278521CEA5 /* LineSDKProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDKProfile.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDKProfile.h; sourceTree = "<group>"; };
+		31F6CE322D1C29A2191F1D4661703FF5 /* LineSDKCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDKCredential.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDKCredential.h; sourceTree = "<group>"; };
+		59116A8B5B69403626F03410858523FF /* LineSDKVerifyResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDKVerifyResult.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDKVerifyResult.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CA99A9B7C912D32584C7CF6CFE998B8 /* LineSDKAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDKAPI.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDKAPI.h; sourceTree = "<group>"; };
+		6FC8F38EE208F99A678A442B351CE122 /* Pods-LINELoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LINELoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7BC065274E468645B6214B4E7FB18931 /* LineSDKConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDKConfiguration.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDKConfiguration.h; sourceTree = "<group>"; };
+		90E30DBC86CCBEB0B99F673353E21C1A /* Pods-LINELoginDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LINELoginDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		91809AF6D028DB9E00973D28EB37E714 /* LineSDKAccessToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDKAccessToken.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDKAccessToken.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		965D8DF7570CFBD5FEB88DD2870EDE4F /* LineSDKLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDKLogin.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDKLogin.h; sourceTree = "<group>"; };
+		9B0AB75E24901906389ACFCF6CD86B16 /* LineSDKRequestProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDKRequestProtocol.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDKRequestProtocol.h; sourceTree = "<group>"; };
+		9FCF876262351BC25F56D181E6334536 /* LineSDKHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDKHTTPClient.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDKHTTPClient.h; sourceTree = "<group>"; };
+		A1B2EDF0C63311D7606EF37E2E434E7A /* Pods-LINELoginDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LINELoginDemo.modulemap"; sourceTree = "<group>"; };
+		A890A92F8B2E282C5F14C9C5C88884C8 /* Pods-LINELoginDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LINELoginDemo-umbrella.h"; sourceTree = "<group>"; };
+		B944A83CB3C37F3168265F5C92D8E473 /* Pods-LINELoginDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LINELoginDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C74E038705C4373B8E327A8F397598A8 /* Pods_LINELoginDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LINELoginDemo.framework; path = "Pods-LINELoginDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBA5E2F62E1030D632593BFA0AFEEFC /* NSError+LineSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+LineSDK.h"; path = "LineSDK/LineSDK.framework/Versions/A/Headers/NSError+LineSDK.h"; sourceTree = "<group>"; };
+		ECC9E3B4F23B5FC8FF5AAAB55E6822C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3DC5DDC1C82A5D46E3DB40D1E0CCD1 /* LineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LineSDK.framework; path = LineSDK/LineSDK.framework; sourceTree = "<group>"; };
+		EE9D00D326A8EF069787B982753DA60E /* LineSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDK.h; path = LineSDK/LineSDK.framework/Versions/A/Headers/LineSDK.h; sourceTree = "<group>"; };
+		F3F77AC5E807B4A584A0C98E9B3D373D /* Pods-LINELoginDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LINELoginDemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47F927EE8750885CF24A88EA7E0EFCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F8A023A1DF02BB716469AE182B5B46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43378DAE524BCC8D6AED438968F77CC0 /* LineSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D00D326A8EF069787B982753DA60E /* LineSDK.h */,
+				91809AF6D028DB9E00973D28EB37E714 /* LineSDKAccessToken.h */,
+				6CA99A9B7C912D32584C7CF6CFE998B8 /* LineSDKAPI.h */,
+				7BC065274E468645B6214B4E7FB18931 /* LineSDKConfiguration.h */,
+				31F6CE322D1C29A2191F1D4661703FF5 /* LineSDKCredential.h */,
+				9FCF876262351BC25F56D181E6334536 /* LineSDKHTTPClient.h */,
+				965D8DF7570CFBD5FEB88DD2870EDE4F /* LineSDKLogin.h */,
+				2B93EBBFBB1751BC284414278521CEA5 /* LineSDKProfile.h */,
+				9B0AB75E24901906389ACFCF6CD86B16 /* LineSDKRequestProtocol.h */,
+				59116A8B5B69403626F03410858523FF /* LineSDKVerifyResult.h */,
+				EBBA5E2F62E1030D632593BFA0AFEEFC /* NSError+LineSDK.h */,
+				FCAFE8EF2DD60105ECEEAE5EB060B909 /* Frameworks */,
+			);
+			name = LineSDK;
+			path = LineSDK;
+			sourceTree = "<group>";
+		};
+		4615784A369DCAEFEA945D0204B92A8D /* Pods-LINELoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9E3B4F23B5FC8FF5AAAB55E6822C8 /* Info.plist */,
+				A1B2EDF0C63311D7606EF37E2E434E7A /* Pods-LINELoginDemo.modulemap */,
+				B944A83CB3C37F3168265F5C92D8E473 /* Pods-LINELoginDemo-acknowledgements.markdown */,
+				90E30DBC86CCBEB0B99F673353E21C1A /* Pods-LINELoginDemo-acknowledgements.plist */,
+				05F884DD8FE4715678EA59EAD53F5170 /* Pods-LINELoginDemo-dummy.m */,
+				23FE5A8E8BF4FEBF435968D73B8805D9 /* Pods-LINELoginDemo-frameworks.sh */,
+				F3F77AC5E807B4A584A0C98E9B3D373D /* Pods-LINELoginDemo-resources.sh */,
+				A890A92F8B2E282C5F14C9C5C88884C8 /* Pods-LINELoginDemo-umbrella.h */,
+				6FC8F38EE208F99A678A442B351CE122 /* Pods-LINELoginDemo.debug.xcconfig */,
+				1C0815D949F4ED63B97C353230365D85 /* Pods-LINELoginDemo.release.xcconfig */,
+			);
+			name = "Pods-LINELoginDemo";
+			path = "Target Support Files/Pods-LINELoginDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A993BA223321D2999A1A1DFFA297D193 /* Pods */,
+				B472EBE132E0C1EB04304DA451299ACA /* Products */,
+				D54CCE755E6CC0F71F97942304C3622E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A993BA223321D2999A1A1DFFA297D193 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43378DAE524BCC8D6AED438968F77CC0 /* LineSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B472EBE132E0C1EB04304DA451299ACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C74E038705C4373B8E327A8F397598A8 /* Pods_LINELoginDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D54CCE755E6CC0F71F97942304C3622E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4615784A369DCAEFEA945D0204B92A8D /* Pods-LINELoginDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FCAFE8EF2DD60105ECEEAE5EB060B909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC5DDC1C82A5D46E3DB40D1E0CCD1 /* LineSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A845A8136F0993737950B24AEE1A93D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4036668706AF9302DA76A70C42F30DD1 /* Pods-LINELoginDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F3E8C5547D953FF807F25246DA2C468 /* Pods-LINELoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE618D1F1E04B876025B94825729BB2 /* Build configuration list for PBXNativeTarget "Pods-LINELoginDemo" */;
+			buildPhases = (
+				D0E4C728678B204B024B41D2C5FE3830 /* Sources */,
+				A47F927EE8750885CF24A88EA7E0EFCF /* Frameworks */,
+				A845A8136F0993737950B24AEE1A93D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LINELoginDemo";
+			productName = "Pods-LINELoginDemo";
+			productReference = C74E038705C4373B8E327A8F397598A8 /* Pods_LINELoginDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B472EBE132E0C1EB04304DA451299ACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F3E8C5547D953FF807F25246DA2C468 /* Pods-LINELoginDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E4C728678B204B024B41D2C5FE3830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881A84A314D30391CCA7CCFBEFA33F14 /* Pods-LINELoginDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7D3408356749877EF9554CA1C70F7DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC8F38EE208F99A678A442B351CE122 /* Pods-LINELoginDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LINELoginDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LINELoginDemo/Pods-LINELoginDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E12E2C87B201565D237F0BF28A71D7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0815D949F4ED63B97C353230365D85 /* Pods-LINELoginDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LINELoginDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LINELoginDemo/Pods-LINELoginDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE618D1F1E04B876025B94825729BB2 /* Build configuration list for PBXNativeTarget "Pods-LINELoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3408356749877EF9554CA1C70F7DAC /* Debug */,
+				E12E2C87B201565D237F0BF28A71D7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
